@@ -41,6 +41,7 @@
     <orderEntry type="library" scope="PROVIDED" name="activesupport (v8.0.0.1, ruby-3.3.6-p108) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ast (v2.4.2, ruby-3.3.6-p108) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="base64 (v0.2.0, ruby-3.3.6-p108) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="bcrypt (v3.1.20, ruby-3.3.6-p108) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bcrypt_pbkdf (v1.1.1, ruby-3.3.6-p108) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="benchmark (v0.4.0, ruby-3.3.6-p108) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="bigdecimal (v3.1.8, ruby-3.3.6-p108) [gem]" level="application" />
@@ -53,17 +54,22 @@
     <orderEntry type="library" scope="PROVIDED" name="crass (v1.0.6, ruby-3.3.6-p108) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="date (v3.4.1, ruby-3.3.6-p108) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="debug (v1.9.2, ruby-3.3.6-p108) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="diff-lcs (v1.5.1, ruby-3.3.6-p108) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="dotenv (v3.1.4, ruby-3.3.6-p108) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="drb (v2.2.1, ruby-3.3.6-p108) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="ed25519 (v1.3.0, ruby-3.3.6-p108) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="erubi (v1.13.0, ruby-3.3.6-p108) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="et-orbi (v1.2.11, ruby-3.3.6-p108) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="factory_bot (v6.5.0, ruby-3.3.6-p108) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="factory_bot_rails (v6.4.4, ruby-3.3.6-p108) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="fugit (v1.11.1, ruby-3.3.6-p108) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="globalid (v1.2.1, ruby-3.3.6-p108) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="i18n (v1.14.6, ruby-3.3.6-p108) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="io-console (v0.8.0, ruby-3.3.6-p108) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="irb (v1.14.1, ruby-3.3.6-p108) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jbuilder (v2.13.0, ruby-3.3.6-p108) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="json (v2.9.0, ruby-3.3.6-p108) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="jwt (v2.9.3, ruby-3.3.6-p108) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="kamal (v2.3.0, ruby-3.3.6-p108) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="language_server-protocol (v3.17.0.3, ruby-3.3.6-p108) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="logger (v1.6.2, ruby-3.3.6-p108) [gem]" level="application" />
@@ -102,6 +108,11 @@
     <orderEntry type="library" scope="PROVIDED" name="rdoc (v6.8.1, ruby-3.3.6-p108) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="regexp_parser (v2.9.3, ruby-3.3.6-p108) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="reline (v0.5.12, ruby-3.3.6-p108) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-core (v3.13.2, ruby-3.3.6-p108) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-expectations (v3.13.3, ruby-3.3.6-p108) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-mocks (v3.13.2, ruby-3.3.6-p108) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-rails (v5.1.2, ruby-3.3.6-p108) [gem]" level="application" />
+    <orderEntry type="library" scope="PROVIDED" name="rspec-support (v3.13.2, ruby-3.3.6-p108) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rubocop (v1.69.1, ruby-3.3.6-p108) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rubocop-ast (v1.36.2, ruby-3.3.6-p108) [gem]" level="application" />
     <orderEntry type="library" scope="PROVIDED" name="rubocop-minitest (v0.36.0, ruby-3.3.6-p108) [gem]" level="application" />
@@ -146,14 +157,31 @@
         <option value="channel" />
         <option value="controller" />
         <option value="erb:authentication" />
+        <option value="factory_bot:model" />
         <option value="generator" />
         <option value="integration_test" />
+        <option value="jbuilder" />
         <option value="job" />
         <option value="mailbox" />
         <option value="mailer" />
         <option value="migration" />
         <option value="model" />
         <option value="resource" />
+        <option value="rspec:channel" />
+        <option value="rspec:controller" />
+        <option value="rspec:feature" />
+        <option value="rspec:generator" />
+        <option value="rspec:helper" />
+        <option value="rspec:install" />
+        <option value="rspec:integration" />
+        <option value="rspec:job" />
+        <option value="rspec:mailbox" />
+        <option value="rspec:mailer" />
+        <option value="rspec:model" />
+        <option value="rspec:request" />
+        <option value="rspec:scaffold" />
+        <option value="rspec:system" />
+        <option value="rspec:view" />
         <option value="scaffold" />
         <option value="scaffold_controller" />
         <option value="script" />
@@ -191,14 +219,31 @@
         <option value="channel" />
         <option value="controller" />
         <option value="erb:authentication" />
+        <option value="factory_bot:model" />
         <option value="generator" />
         <option value="integration_test" />
+        <option value="jbuilder" />
         <option value="job" />
         <option value="mailbox" />
         <option value="mailer" />
         <option value="migration" />
         <option value="model" />
         <option value="resource" />
+        <option value="rspec:channel" />
+        <option value="rspec:controller" />
+        <option value="rspec:feature" />
+        <option value="rspec:generator" />
+        <option value="rspec:helper" />
+        <option value="rspec:install" />
+        <option value="rspec:integration" />
+        <option value="rspec:job" />
+        <option value="rspec:mailbox" />
+        <option value="rspec:mailer" />
+        <option value="rspec:model" />
+        <option value="rspec:request" />
+        <option value="rspec:scaffold" />
+        <option value="rspec:system" />
+        <option value="rspec:view" />
         <option value="scaffold" />
         <option value="scaffold_controller" />
         <option value="script" />
@@ -256,6 +301,9 @@
     <entry key="config/cable">
       <value>file://$MODULE_DIR$/config/cable.yml</value>
     </entry>
+    <entry key="config/cache">
+      <value>file://$MODULE_DIR$/config/cache.yml</value>
+    </entry>
     <entry key="config/database">
       <value>file://$MODULE_DIR$/config/database.yml</value>
     </entry>
@@ -277,8 +325,8 @@
     <entry key="config/routes.rb">
       <value>file://$MODULE_DIR$/config/routes.rb</value>
     </entry>
-    <entry key="config/secrets">
-      <value>file://$MODULE_DIR$/config</value>
+    <entry key="config/solid_cache">
+      <value>file://$MODULE_DIR$/config/solid_cache.yml</value>
     </entry>
     <entry key="db">
       <value>file://$MODULE_DIR$/db</value>
@@ -312,6 +360,10 @@
     </entry>
     <entry key="public/stylesheets">
       <value>file://$MODULE_DIR$/public/stylesheets</value>
+    </entry>
+    <entry key="test/mailers/previews">
+      <value>file://$MODULE_DIR$/test/mailers/previews</value>
+      <value>file://$MODULE_DIR$/test/mailers/previews</value>
     </entry>
     <entry key="tmp">
       <value>file://$MODULE_DIR$/tmp</value>
@@ -495,6 +547,7 @@
               <RakeTaskImpl description="start solid_queue supervisor to dispatch and process jobs" fullCommand="solid_queue:start" id="start" />
             </subtasks>
           </RakeTaskImpl>
+          <RakeTaskImpl description="Run all specs in spec directory (excluding plugin specs)" fullCommand="spec" id="spec" />
           <RakeTaskImpl description="Report code statistics (KLOCs, etc) from the application or engine" fullCommand="stats" id="stats" />
           <RakeTaskImpl description="Run all tests in test folder except system ones" fullCommand="test" id="test" />
           <RakeTaskImpl id="test">
@@ -580,6 +633,12 @@
                   <RakeTaskImpl description="" fullCommand="railties:install:migrations" id="migrations" />
                 </subtasks>
               </RakeTaskImpl>
+            </subtasks>
+          </RakeTaskImpl>
+          <RakeTaskImpl id="spec">
+            <subtasks>
+              <RakeTaskImpl description="" fullCommand="spec:prepare" id="prepare" />
+              <RakeTaskImpl description="" fullCommand="spec:statsetup" id="statsetup" />
             </subtasks>
           </RakeTaskImpl>
           <RakeTaskImpl description="" fullCommand="tmp" id="tmp" />
