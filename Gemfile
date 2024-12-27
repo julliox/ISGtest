@@ -46,7 +46,7 @@ group :development, :test do
   gem "rubocop-rails-omakase", require: false
 
   gem "bcrypt", "~> 3.1.7"
-  gem "jwt", "~> 2.2"
+  gem "jwt", "~> 2.10"
   gem "jbuilder"
   gem "rspec-rails", "~> 7.0", group: [:development, :test]
   gem "factory_bot_rails", group: [:development, :test]
